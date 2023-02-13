@@ -21,7 +21,7 @@ var requestOptions = {
 }
 
 const readLineProcess = readLine.createInterface({
-    input: fs.createReadStream('ibansToCheck.txt'),
+    input: fs.createReadStream('placeYourIbans.txt'),
     crlfDelay: Infinity
 });
 
